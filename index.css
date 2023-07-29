@@ -1,0 +1,312 @@
+
+h2 {
+    font-size: 60px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+h3 {
+    margin-top: -50px;
+    color: white;
+}
+
+.circle {
+    background-color: blue;
+    width: 160px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    height: 160px;
+    margin-left: 85px;
+
+}
+.img1{
+    width: 20px;
+    height: 11px;
+}
+
+.child1{
+    color: white;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(47, 16, 247, 0.834);
+}
+
+.grade {
+    font-size: 40px;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.grade-content {
+    color: white;
+    width: 250px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+
+.reaction-content {
+    color: rgb(249, 172, 139);
+    margin-left: 30px;
+    margin-top: -24px;
+    word-spacing: 50px;
+}
+.memory-content {
+   color: rgb(249, 236, 93);
+   font-weight: bold;
+    margin-left: 30px;
+    margin-top: -24px;
+    word-spacing: 50px;
+}
+.verbal-content {
+    color: rgb(95, 224, 222);
+    margin-left: 30px;
+    margin-top: -24px;
+    word-spacing: 50px;
+}
+.visual-content {
+    color:rgb(121, 110, 239) ;
+    margin-left: 30px;
+    margin-top: -24px;
+    word-spacing: 50px;
+}
+
+.verbal-content,
+.visual-content {
+    word-spacing: 56px;
+}
+
+.role1 {
+    background: rgb(246, 236, 223);
+    padding: 20px 5px 5px 15px;
+    width: 270px;
+    border-radius: 15px;
+}
+
+.role2 {
+    background: rgb(246, 236, 223);
+    padding: 20px 5px 5px 15px;
+    width: 270px;
+    border-radius: 15px;
+}
+
+.role3 {
+    background-color: rgb(233, 233, 240);
+    padding: 20px 5px 5px 15px;
+    width: 270px;
+    border-radius: 15px;
+}
+.role2 , .role3 , .role4{
+        margin: 20px 0px;
+}
+
+.role4 {
+    background-color: rgb(233, 233, 240);
+    padding: 20px 5px 5px 15px;
+    width: 270px;
+    border-radius: 15px;
+}
+
+.summary {
+    font-size: 25px;
+    color: black;
+}
+
+button {
+    text-align: center;
+    padding: 20px 105px 20px 105px;
+    padding-top: 25px;
+    background-color: rgb(40, 44, 84);
+    color: White;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.btn-1{
+    padding-top: 17px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child2 {
+    background-color:white;
+    padding: 20px;
+    width: 350px;
+    padding-left: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container {
+    display: flex;
+    border-radius: 20px;
+}
+
+/* Meadia Query For Laptops*/
+@media (max-width:800px) {
+    .img1{
+        display: flex;
+        width: 20px;
+        height: 11px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin-top: -35px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .grade {
+        font-size: 30px;
+    }
+
+    .grade-content {
+        font-size: 13px;
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .summary {
+        font-size: 20px;
+    }
+
+    .reaction-content,
+    .memory-content,
+    .verbal-content,
+    .visual-content {
+        font-size: 13px;
+        margin-top: -37px;
+        word-spacing: 25px;
+        padding-top: 11px;
+    }
+
+    .verbal-content,
+    .visual-content {
+        word-spacing: 30px;
+    }
+
+    .role1,
+    .role2,
+    .role3,
+    .role4 {
+        width: 200px;
+        padding-top: 29px;
+    }
+
+    button {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .btn-1 {
+        padding-top: 29px;
+    }
+
+    .child2 {
+        width: 230px;
+        padding-left: 20px;
+        height: 410px;
+    }
+
+    .child1 {
+        width: 230px;
+    }
+
+    .container {
+        height: 450px;
+    }
+
+}
+
+/* Meadia Query For Mobile ..!*/
+@media (max-width:540px) {
+    .container {
+        flex-direction: column;
+        margin-top: -200px;
+    }
+
+    body {
+    
+        background-size: 2100px;
+        padding-bottom: 200px;
+    }
+
+    .child1 {
+        width: 270px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 43px;
+        border-bottom-left-radius: 54px;
+    }
+
+    .child2 {
+        width: 260px;
+        padding-left: 30px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        height: 550px;
+
+    }
+
+    .circle {
+
+        margin-left: 70px;
+    }
+
+    .grade-content {
+        margin-left: 40px;
+    }
+
+    .summary {
+        margin-left: 10px;
+    }
+
+    .role1,
+    .role2,
+    .role3,
+    .role4 {
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+
+    .btn-1 {
+        margin-left: 10px;
+    }
+    .reaction-content,
+    .memory-content,
+    .verbal-content,
+    .visual-content {
+        font-size: 13px;
+        margin-top: -37px;
+        word-spacing: 25px;
+        padding-top: 28px;
+    }
+
+}
